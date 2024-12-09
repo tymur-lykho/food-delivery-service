@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodSta</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container container">
+        <a class="logo" href="">
+          <img
+            class="logo-img"
+            src="./images/logo.svg"
+            alt="FoodSta logo"
+            width="66"
+            height="52"
+          />
+        </a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Service</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="header-btn" type="button">Order Now</button>
+
+        <button class="mobile-menu-btn" type="button">
+          <svg class="mobile-menu-icon" width="28" height="28">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-container container">
+          <div class="hero-left-side">
+            <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+            <p class="hero-text">
+              With just a few clicks, you can have your favorite meals delivered
+              straight to your doorstep, no matter where you are. Order now and
+              enjoy a hassle-free and delicious meal from the comfort of your
+              own home.
+            </p>
+            <button class="hero-btn" type="button">Order Now</button>
+          </div>
+          <div class="hero-right-side">
+            <button class="hero-slide-btn left" type="button">
+              <svg class="hero-slide-icon left" width="12" height="22">
+                <use href="./images/icons.svg#icon-big-arrow"></use>
+              </svg>
+            </button>
+            <img
+              class="hero-img"
+              src="./images/hero-img.jpg"
+              alt=""
+              width="580"
+              height="580"
+            />
+            <button class="hero-slide-btn right" type="button">
+              <svg class="hero-slide-icon right" width="12" height="22">
+                <use href="./images/icons.svg#icon-big-arrow"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
