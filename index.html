@@ -237,7 +237,115 @@
           </ul>
         </div>
       </section>
+      <section class="subscribe">
+        <div class="subscribe-container container">
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="./images/banan_desk@1x.png 1x"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="./images/banan_tab@1x.png 1x"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="./images/banan_mob@1x.png 1x"
+            />
+            <img
+              class="subscribe-img"
+              src="./images/banan_desk@1x.png"
+              alt=""
+              width="608"
+              height="266"
+            />
+          </picture>
+          <div class="subscribe-wrapper">
+            <h2 class="subscribe-title">Subscribe To Get Special Offers</h2>
+            <p class="subscribe-text">
+              Order now and receive 10% off your first meal with Enjoy Your
+              Favorite Food From Anywhere.
+            </p>
+            <form class="subscribe-form" name="subscribe-form">
+              <input
+                class="subscribe-input"
+                type="email"
+                name="user-email"
+                id="user-email"
+                placeholder="Enter your email"
+              />
+              <button class="subscribe-btn" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer-container container">
+        <div class="footer-header">
+          <a class="footer-logo-link" href="">
+            <img
+              class="footer-logo"
+              src="./images/logo.svg"
+              alt=""
+              width="69"
+              height="51"
+            />
+          </a>
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="">Home</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="">About</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="">Service</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="">Menu</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <form class="in-footer subscribe-form" name="subscribe-form">
+          <label class="in-footer subscribe-label" for="user-email">
+            Subscribe
+          </label>
+          <div class="form-wrapper in-footer">
+            <input
+              class="in-footer subscribe-input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Enter your email"
+            />
+            <button class="in-footer subscribe-btn" type="submit">
+              Subscribe
+            </button>
+          </div>
+          <p class="privacy-text">
+            By subscribing you agree to with our
+            <a class="privacy-link" href="">Privacy Policy</a>
+          </p>
+        </form>
+        <div class="footer-footer">
+          <ul class="footer-document-list">
+            <li class="footer-document-item">
+              <a class="footer-document-link" href="">Privacy Policy</a>
+            </li>
+            <li class="footer-document-item">
+              <a class="footer-document-link" href="">Terms of Service</a>
+            </li>
+            <li class="footer-document-item">
+              <a class="footer-document-link" href="">Cookies Settings</a>
+            </li>
+          </ul>
+          <p class="all-rights-text">2022 FoodSta. All right reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
